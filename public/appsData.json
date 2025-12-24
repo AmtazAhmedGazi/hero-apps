@@ -1,6 +1,6 @@
 [
   {
-    "image": "../src/assets/demo-app (1).webp",
+    "image": "https://plus.unsplash.com/premium_photo-1681487870238-4a2dfddc6bcb?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "TaskMaster",
     "companyName": "Productivity Inc.",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (2).webp",
+    "image": "https://images.unsplash.com/photo-1586374579358-9d19d632b6df?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "FitLife",
     "companyName": "HealthTech",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (3).webp",
+    "image": "https://images.unsplash.com/photo-1633409361618-c73427e4e206?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "PhotoSnap",
     "companyName": "SnapSoft",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (4).webp",
+    "image": "https://plus.unsplash.com/premium_photo-1681400545953-0ba00cfa7926?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "BudgetBuddy",
     "companyName": "Finance Apps",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (5).webp",
+    "image": "https://images.unsplash.com/photo-1636819488524-1f019c4e1c44?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "WeatherNow",
     "companyName": "SkyTech",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "../src/assets/demo-app (6).webp",
+    "image": "https://images.unsplash.com/photo-1611262588019-db6cc2032da3?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "TravelMate",
     "companyName": "Wanderlust Ltd.",
     "id": 6,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/id/1052/200/200",
+    "image": "https://images.unsplash.com/photo-1611162619969-50b02487f71b?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "NoteKeeper",
     "companyName": "OrganizeIt",
     "id": 7,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/id/1053/200/200",
+    "image": "https://images.unsplash.com/photo-1707061229211-25325f7134ce?q=80&w=1481&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "MindRelax",
     "companyName": "Wellness Apps",
     "id": 8,
