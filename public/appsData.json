@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://picsum.photos/id/1011/200/200",
+    "image": "../src/assets/demo-app (1).webp",
     "title": "TaskMaster",
     "companyName": "Productivity Inc.",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/id/1025/200/200",
+    "image": "../src/assets/demo-app (2).webp",
     "title": "FitLife",
     "companyName": "HealthTech",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/id/1035/200/200",
+    "image": "../src/assets/demo-app (3).webp",
     "title": "PhotoSnap",
     "companyName": "SnapSoft",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/id/1041/200/200",
+    "image": "../src/assets/demo-app (4).webp",
     "title": "BudgetBuddy",
     "companyName": "Finance Apps",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/id/1050/200/200",
+    "image": "../src/assets/demo-app (5).webp",
     "title": "WeatherNow",
     "companyName": "SkyTech",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/id/1051/200/200",
+    "image": "../src/assets/demo-app (6).webp",
     "title": "TravelMate",
     "companyName": "Wanderlust Ltd.",
     "id": 6,
