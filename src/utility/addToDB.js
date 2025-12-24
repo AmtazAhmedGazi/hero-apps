@@ -8,16 +8,12 @@ const addToStoredDB = (id) => {
   if (!storedAppData.includes(id)) {
     storedAppData.push(id);
     localStorage.setItem("installList", JSON.stringify(storedAppData));
-    alert("Added");
-  } else {
-    alert("Id already exists");
   }
 };
 
 const removeFromStoredApp = (id) => {
   const storedAppData = getStoredApp();
   const updatedList = storedAppData.filter((appId) => parseInt(appId) !== id);
-  console.log(updatedList);
   localStorage.setItem("installList", JSON.stringify(updatedList));
 };
 

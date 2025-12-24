@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { ToastContainer, toast } from "react-toastify";
 import { useLoaderData, useParams } from "react-router";
 import iconDownload from "../../assets/icon-downloads.png";
 import iconRatings from "../../assets/icon-ratings.png";
@@ -42,6 +43,7 @@ const AppDetails = () => {
   const handleInstall = (id) => {
     addToStoredDB(id);
     setInstalled(true);
+    toast("Installation Success! ");
   };
 
   let downloadsCount = parseInt(downloads, 10);
@@ -103,6 +105,7 @@ const AppDetails = () => {
           >
             {installed ? "Installed" : `Install Now (${size} MB)`}
           </button>
+          <ToastContainer />
         </div>
       </div>
       <div className="divider mb-2"></div>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
 import { useLoaderData } from "react-router";
 import { getStoredApp } from "../../utility/addToDB";
 import InstalledApp from "../InstalledApp/InstalledApp";
@@ -18,6 +19,7 @@ const Installation = () => {
 
   const handleRemoveApp = (id) => {
     setInstallList((prev) => prev.filter((app) => app.id !== id));
+    toast("Uninstalled Successfully! ");
   };
 
   return (
@@ -42,6 +44,7 @@ const Installation = () => {
           </div>
         )}
       </div>
+      <ToastContainer />
     </div>
   );
 };
