@@ -6,6 +6,7 @@ import Apps from "../pages/Apps/Apps";
 import Installation from "../pages/Installation/Installation";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import AppDetails from "../pages/AppDetails/AppDetails";
+import SearchNotFound from "../pages/SearchNotFound/SearchNotFound";
 
 export const router = createBrowserRouter([
   {
@@ -49,6 +50,7 @@ export const router = createBrowserRouter([
         },
         path: "/appDetails/:id",
         Component: AppDetails,
+        errorElement: <SearchNotFound></SearchNotFound>,
       },
     ],
   },
