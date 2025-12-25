@@ -25,17 +25,21 @@ const Apps = () => {
 
   return (
     <div className="text-center bg-gray-100">
-      <h3 className="pt-10 font-bold text-3xl">Our All Applications</h3>
-      <h5 className="text-sm font-thin mt-2 mb-5">
+      <h3 className="pt-10 font-bold text-2xl lg:text-3xl">
+        Our All Applications
+      </h3>
+      <h5 className="text-xs lg:text-sm font-thin mt-2 mb-5">
         Explore All Apps on the Market developed by us. We code for Millions
       </h5>
 
       <div className="max-w-260 mx-auto pb-10">
-        <div className="flex justify-between mb-4">
-          <h3 className="font-semibold">({data.length}) Apps Found</h3>
+        <div className="flex justify-between mb-4 mx-2 lg:mx-0">
+          <h3 className="font-semibold text-sm lg:text-base">
+            ({data.length}) Apps Found
+          </h3>
           <input
             type="search"
-            className="border-2 border-gray-300 py-1 px-2"
+            className="border-2 border-gray-300 py-1 px-2 w-35 lg:w-fit text-sm lg:text-base"
             placeholder="Search Apps"
             value={search}
             onChange={(e) => setSearch(e.target.value)}

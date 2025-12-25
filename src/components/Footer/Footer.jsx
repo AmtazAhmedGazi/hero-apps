@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
       </nav>
       <aside>
-        <p className="text-white">
+        <p className="text-white text-xs lg:text-sm">
           Copyright © {new Date().getFullYear()} - All right reserved by HERO.IO
         </p>
       </aside>

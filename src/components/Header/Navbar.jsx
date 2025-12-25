@@ -46,9 +46,9 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <Link to="/" className="btn btn-ghost text-xl">
-          <img src={logo} alt="" className="h-10" />
-          <h2 className="text-xl font-bold bg-gradient-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+        <Link to="/" className="btn btn-ghost lg:text-xl">
+          <img src={logo} alt="" className="h-5 lg:h-10" />
+          <h2 className="lg:text-xl font-bold bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
             HERO.IO
           </h2>
         </Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end ">
         <a
-          className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white"
+          className="btn bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white"
           href="https://github.com/AmtazAhmedGazi"
         >
           <img src={gitImage} alt="" className="mr-0.5" />

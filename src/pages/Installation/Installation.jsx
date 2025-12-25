@@ -15,7 +15,7 @@ const Installation = () => {
       convertedStoredApp.includes(app.id)
     );
     setInstallList(filteredList);
-  }, []);
+  }, [data]);
 
   const handleRemoveApp = (id) => {
     setInstallList((prev) => prev.filter((app) => app.id !== id));
@@ -24,7 +24,9 @@ const Installation = () => {
 
   return (
     <div className="text-center bg-gray-100">
-      <h3 className="pt-10 font-bold text-4xl mb-2">Your Installed Apps</h3>
+      <h3 className="pt-10 font-bold text-2xl lg:text-4xl mb-2">
+        Your Installed Apps
+      </h3>
       <h5 className="text-xs font-thin mt-2 mb-5 text-[#627382]">
         Explore All Trending Apps on the Market developed by us
       </h5>
@@ -39,7 +41,7 @@ const Installation = () => {
             />
           ))
         ) : (
-          <div className="text-gray-500 font-semibold mt-10">
+          <div className="text-gray-500 font-bold my-20 text-6xl">
             No Apps Installed
           </div>
         )}

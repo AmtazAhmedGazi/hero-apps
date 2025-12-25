@@ -10,7 +10,7 @@ const HomeApps = ({ data }) => {
   };
   return (
     <div className="text-center bg-gray-100 ">
-      <h3 className="pt-10 font-bold text-4xl">Trending Apps</h3>
+      <h3 className="pt-10 font-bold text-3xl lg:text-4xl">Trending Apps</h3>
       <h5 className="text-xs font-thin mt-2 mb-5">
         Explore All Trending Apps on the Market developed by us
       </h5>
@@ -26,7 +26,7 @@ const HomeApps = ({ data }) => {
         </Suspense>
       </div>
       <button
-        className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white mb-10 font-light px-8"
+        className="btn bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white mb-10 font-light px-8"
         href="https://github.com/AmtazAhmedGazi"
         onClick={handleShowAll}
       >

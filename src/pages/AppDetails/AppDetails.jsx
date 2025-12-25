@@ -66,9 +66,9 @@ const AppDetails = () => {
   const chartData = [...ratings].reverse();
 
   return (
-    <div className="bg-gray-100 p-10">
-      <div className="flex max-w-260 mx-auto">
-        <img src={image} alt="" className="mr-10 w-60" />
+    <div className=" bg-gray-100 p-10">
+      <div className="flex flex-col lg:flex-row max-w-260 mx-auto">
+        <img src={image} alt="" className="mr-10 w-full lg:w-60 rounded-sm" />
         <div>
           <h3 className="text-2xl font-bold mb-1">
             {title} : {description}
@@ -132,8 +132,8 @@ const AppDetails = () => {
       </div>
       <div className="divider mb-2"></div>
       <div>
-        <h3 className="font-bold text-lg mb-4">Description</h3>
-        <h4>
+        <h3 className="font-bold text-base lg:text-lg mb-4">Description</h3>
+        <h4 className="text-sm lg:text-base">
           This focus app takes the proven Pomodoro technique and makes it even
           more practical for modern lifestyles. Instead of just setting a timer,
           it builds a complete environment for deep work, minimizing

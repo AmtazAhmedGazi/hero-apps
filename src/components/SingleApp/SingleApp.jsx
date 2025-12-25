@@ -17,8 +17,8 @@ const SingleApp = ({ singleApp }) => {
 
   return (
     <Link to={`/appDetails/${id}`}>
-      <div className="flex flex-col shadow-sm bg-white p-3 rounded-sm">
-        <img src={image} alt="" className="w-60 h-50" />
+      <div className="flex flex-col shadow-sm bg-white p-3 rounded-sm mx-2 lg:mx-0">
+        <img src={image} alt="" className="w-full lg:w-60 h-50" />
         <h3 className="text-left font-semibold my-2">
           {title} : {companyName}
         </h3>

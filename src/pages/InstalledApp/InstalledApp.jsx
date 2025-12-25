@@ -18,14 +18,14 @@ const InstalledApp = ({ app, handleRemoveApp }) => {
   };
 
   return (
-    <div className="bg-white flex mb-6 items-center justify-between pr-5 rounded shadow-sm">
+    <div className="bg-white flex mb-6 items-center justify-between pr-5 rounded shadow-sm mx-2 lg:mx-0">
       <div className="flex p-3 gap-3">
         <img src={image} alt={title} className="w-20 h-20 rounded-md" />
         <div>
           <h3 className="text-left font-semibold my-2 ml-2">
             {title} : {companyName}
           </h3>
-          <div className="flex items-center justify-center gap-4">
+          <div className="flex items-center gap-1 lg:gap-4">
             <h4 className="text-[#00D390] flex p-2 items-center gap-1 rounded-sm">
               <img src={iconDownload} alt="Downloads" className="w-4 h-4" />
               {downloadsCountWord}
@@ -40,7 +40,7 @@ const InstalledApp = ({ app, handleRemoveApp }) => {
       </div>
 
       <button
-        className="btn btn-accent text-white"
+        className="btn btn-accent text-white p-3 lg:p-4"
         onClick={() => {
           handleUninstall(id);
         }}
